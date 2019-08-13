@@ -6,7 +6,7 @@ public class SnakeHead {
 
     private int x;
     private int y;
-    private ArrayList<SnakeCell> body;
+    private ArrayList<Cell> body;
 
     public int getX() {
         return x;
@@ -24,11 +24,11 @@ public class SnakeHead {
         this.y = y;
     }
 
-    public ArrayList<SnakeCell> getBody() {
+    public ArrayList<Cell> getBody() {
         return body;
     }
 
-    public void setBody(ArrayList<SnakeCell> body) {
+    public void setBody(ArrayList<Cell> body) {
         this.body = body;
     }
 }
