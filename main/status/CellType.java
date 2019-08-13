@@ -1,6 +1,9 @@
 package main.status;
 
-public class CellType {
+public enum CellType {
 
+    APPLE,
+    TARGET,
+    EMPTY
 
 }

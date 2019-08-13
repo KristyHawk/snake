@@ -1,4 +1,8 @@
 package main.status;
 
-public class GameStatus {
+public enum GameStatus {
+
+    IN_PROCESS,
+    LOST
+
 }
