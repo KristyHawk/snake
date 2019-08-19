@@ -1,10 +1,20 @@
-package main.models;
+package main.model;
 
 import main.status.CellType;
 
+/**
+ * Model of any cell on the board
+ */
 public class Cell {
 
+    /**
+     * X coordinate
+     */
     private int x;
+
+    /**
+     * Y coordinate
+     */
     private int y;
     private CellType type;
 

@@ -1,9 +1,11 @@
 package main;
 
-import main.ui.GameField;
+import main.controller.BoardController;
+import main.model.BoardModel;
 
 public class App {
     public static void main(String[] args) {
-        GameField field = new GameField();
+        BoardModel board = new BoardModel();
+        new BoardController(board);
     }
 }

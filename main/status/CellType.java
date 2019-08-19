@@ -2,6 +2,9 @@ package main.status;
 
 import java.awt.*;
 
+/**
+ * Describes possible Cell types
+ */
 public enum CellType {
 
     APPLE,

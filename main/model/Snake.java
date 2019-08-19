@@ -1,12 +1,23 @@
-package main.models;
+package main.model;
 
-import java.util.ArrayList;
+import java.util.List;
 
-public class SnakeHead {
+public class Snake {
 
+    /**
+     * Head X coordinate
+     */
     private int x;
+
+    /**
+     * Head Y coordinate
+     */
     private int y;
-    private ArrayList<Cell> body;
+
+    /**
+     * Body of the snake
+     */
+    private List<Cell> body;
 
     public int getX() {
         return x;
@@ -24,11 +35,11 @@ public class SnakeHead {
         this.y = y;
     }
 
-    public ArrayList<Cell> getBody() {
+    public List<Cell> getBody() {
         return body;
     }
 
-    public void setBody(ArrayList<Cell> body) {
+    public void setBody(List<Cell> body) {
         this.body = body;
     }
 }

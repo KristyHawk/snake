@@ -1,5 +1,8 @@
-package main.config;
+package main.utils.config;
 
+/**
+ * Constants and the other options of the game
+ */
 public class Configuration {
 
     public static final int boardHeight = 15;
